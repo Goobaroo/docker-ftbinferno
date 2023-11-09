@@ -1,4 +1,4 @@
-# [FTB Inferno](https://feed-the-beast.com/modpack/ftb_inferno) By FTB
+# [FTB Inferno](https://feed-the-beast.com/modpack/99-ftb_inferno) By FTB
 
 <!-- toc -->
 
