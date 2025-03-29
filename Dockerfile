@@ -3,6 +3,12 @@
 FROM openjdk:17.0.2-jdk-buster
 
 LABEL version="1.10.1"
+LABEL homepage.group=Minecraft
+LABEL homepage.name="FTB Inferno"
+LABEL homepage.icon="https://apps.modpacks.ch/modpacks/art/94/logo_inferno.png"
+LABEL homepage.widget.type=minecraft
+LABEL homepage.widget.url=FTBInferno:25565
+
 
 RUN apt-get update && apt-get install -y curl && \
  adduser --uid 99 --gid 100 --home /data --disabled-password minecraft
