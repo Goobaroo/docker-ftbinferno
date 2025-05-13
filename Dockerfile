@@ -2,10 +2,10 @@
 
 FROM openjdk:17.0.2-jdk-buster
 
-LABEL version="1.10.1"
+LABEL version="1.11.1"
 LABEL homepage.group=Minecraft
 LABEL homepage.name="FTB Inferno"
-LABEL homepage.icon="https://apps.modpacks.ch/modpacks/art/94/logo_inferno.png"
+LABEL homepage.icon="https://cdn.feed-the-beast.com/blob/37/37cf12313b5169984530dd99354fe574281c69a9c21d3e37f879ce1a628d199d.png"
 LABEL homepage.widget.type=minecraft
 LABEL homepage.widget.url=udp://FTBInferno:25565
 
@@ -23,7 +23,7 @@ WORKDIR /data
 
 EXPOSE 25565/tcp
 
-ENV MOTD="FTB Inferno v1.10.1 Server Powered by Docker"
+ENV MOTD="FTB Inferno v1.11.1 Server Powered by Docker"
 ENV LEVEL=world
 ENV JVM_OPTS="-Xms4096m -Xmx6144m"
 
